@@ -1,14 +1,15 @@
-import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/home'
 import Favorite from './pages/favorite'
 import Checkout from './pages/checkout'
 import NotFound from './pages/notFound'
+import NavBar from './components/navbar'
 
 function App() {
   return (
     <div className="App">
-      <div className="content">
+      <NavBar />
+      <div className="content px-8">
         <Routes>
           <Route path='/' element={<Home />} ></Route>
           <Route path='/favorite' element={<Favorite />} ></Route>
