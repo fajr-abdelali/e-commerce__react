@@ -6,11 +6,11 @@
             "price": 90,
             "description": "string kodj",
             "category": "Sweatshirt ",
-            "thumbnail":"../../images/products/A4632306_PPI_F_1188x1584_crop_center.webp",
+            "thumbnail":"A4632306_PPI_F_1188x1584_crop_center.webp",
             "image": [
-                "../../images/products/A4632306_PPI_F_1188x1584_crop_center.webp",
-                "../../images/products/A4632306_PPI_1_1188x1584_crop_center.webp",
-                "../../images/products/A4632306_PPI_B_1188x1584_crop_center.webp"
+                "A4632306_PPI_F_1188x1584_crop_center.webp",
+                "A4632306_PPI_1_1188x1584_crop_center.webp",
+                "A4632306_PPI_B_1188x1584_crop_center.webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -29,10 +29,10 @@
             "price": 90,
             "description": "string kodj",
             "category": "Sweatshirt ",
-            "thumbnail":"../../images/products/A4632309_WNE_F_a46eb9c2-ecfc-4f3c-973a-15b02f580129_1188x1584_crop_center.webp",
+            "thumbnail":"A4632309_WNE_F_a46eb9c2-ecfc-4f3c-973a-15b02f580129_1188x1584_crop_center.webp",
             "image": [
-                "../../images/products/A4632309_WNE_F_a46eb9c2-ecfc-4f3c-973a-15b02f580129_1188x1584_crop_center.webp",
-                "../../images/products/A4632309_WNE_B_b8ab3da6-15eb-49d5-be19-cd7efcda8ce7_1188x1584_crop_center.webp"
+                "A4632309_WNE_F_a46eb9c2-ecfc-4f3c-973a-15b02f580129_1188x1584_crop_center.webp",
+                "A4632309_WNE_B_b8ab3da6-15eb-49d5-be19-cd7efcda8ce7_1188x1584_crop_center.webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -51,10 +51,10 @@
             "price": 90,
             "description": "string kodj",
             "category": "Sweatshirt ",
-            "thumbnail":"../../images/products/A4632309_BLK_F_1188x1584_crop_center.webp",
+            "thumbnail":"A4632309_BLK_F_1188x1584_crop_center.webp",
             "image": [
-                "../../images/products/A4632309_BLK_F_1188x1584_crop_center.webp",
-                "../../images/products/A4632309_BLK_B_1188x1584_crop_center.webp"
+                "A4632309_BLK_F_1188x1584_crop_center.webp",
+                "A4632309_BLK_B_1188x1584_crop_center.webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -73,14 +73,14 @@
             "price": 143.99,
             "description": "string kodj",
             "category": "Sweatshirt ",
-            "thumbnail":"../../images/products/element_lodgebearchestnut_tops_shirtjack_elyjk00181-crz0_art23-000907_3613379087236_553683-243.jpg",
+            "thumbnail":"element_lodgebearchestnut_tops_shirtjack_elyjk00181-crz0_art23-000907_3613379087236_553683-243.jpg",
             "image": [
-                "../../images/products/element_lodgebearchestnut_tops_shirtjack_elyjk00181-crz0_art23-000907_3613379087236_553683-243.jpg",
-                "../../images/products/element_lodgebearchestnut_tops_shirtjack_elyjk00181-crz0_art23-000907_3613379087236_553683-249.jpg",
-                "../../images/products/element_lodgebearchestnut_tops_shirtjack_elyjk00181-crz0_art23-000907_3613379087236_553683-248.jpg",
-                "../../images/products/element_lodgebearchestnut_tops_shirtjack_elyjk00181-crz0_art23-000907_3613379087236_553683-245.jpg",
-                "../../images/products/element_lodgebearchestnut_tops_shirtjack_elyjk00181-crz0_art23-000907_3613379087236_553683-244.jpg",
-                "../../images/products/element_lodgebearchestnut_tops_shirtjack_elyjk00181-crz0_art23-000907_3613379087236_553683-246.jpg"
+                "element_lodgebearchestnut_tops_shirtjack_elyjk00181-crz0_art23-000907_3613379087236_553683-243.jpg",
+                "element_lodgebearchestnut_tops_shirtjack_elyjk00181-crz0_art23-000907_3613379087236_553683-249.jpg",
+                "element_lodgebearchestnut_tops_shirtjack_elyjk00181-crz0_art23-000907_3613379087236_553683-248.jpg",
+                "element_lodgebearchestnut_tops_shirtjack_elyjk00181-crz0_art23-000907_3613379087236_553683-245.jpg",
+                "element_lodgebearchestnut_tops_shirtjack_elyjk00181-crz0_art23-000907_3613379087236_553683-244.jpg",
+                "element_lodgebearchestnut_tops_shirtjack_elyjk00181-crz0_art23-000907_3613379087236_553683-246.jpg"
             ],
             "rating": {
                 "rate": 2.4,
@@ -99,11 +99,11 @@
             "price": 26.99,
             "description": "string kodj",
             "category": "Sweatshirt ",
-            "thumbnail":"../../images/products/elykt00116_element_w_ecn_frt1.jpg",
+            "thumbnail":"elykt00116_element_w_ecn_frt1.jpg",
             "image": [
-                "../../images/products/elykt00116_element_w_ecn_frt1.jpg",
-                "../../images/products/elykt00116_element_w_ecn_frt3.jpg",
-                "../../images/products/elykt00116_element_w_ecn_frt2.jpg"
+                "elykt00116_element_w_ecn_frt1.jpg",
+                "elykt00116_element_w_ecn_frt3.jpg",
+                "elykt00116_element_w_ecn_frt2.jpg"
             ],
             "rating": {
                 "rate": 2.4,
@@ -122,11 +122,11 @@
             "price": 24.99,
             "description": "string kodj",
             "category": "Sweatshirt ",
-            "thumbnail":"../../images/products/element_sealbpeclipsenavy_tops_tshirt_z1ssi8elf1-3918_art21-011343_3665601591868_502202-47.jpg",
+            "thumbnail":"element_sealbpeclipsenavy_tops_tshirt_z1ssi8elf1-3918_art21-011343_3665601591868_502202-47.jpg",
             "image": [
-                "../../images/products/element_sealbpeclipsenavy_tops_tshirt_z1ssi8elf1-3918_art21-011343_3665601591868_502202-47.jpg",
-                "../../images/products/element_sealbpeclipsenavy_tops_tshirt_z1ssi8elf1-3918_art21-011343_3665601591868_502202-48.jpg",
-                "../../images/products/element_sealbpeclipsenavy_tops_tshirt_z1ssi8elf1-3918_art21-011343_3665601591868_502202-49.jpg"
+                "element_sealbpeclipsenavy_tops_tshirt_z1ssi8elf1-3918_art21-011343_3665601591868_502202-47.jpg",
+                "element_sealbpeclipsenavy_tops_tshirt_z1ssi8elf1-3918_art21-011343_3665601591868_502202-48.jpg",
+                "element_sealbpeclipsenavy_tops_tshirt_z1ssi8elf1-3918_art21-011343_3665601591868_502202-49.jpg"
             ],
             "rating": {
                 "rate": 2.4,
@@ -145,10 +145,10 @@
             "price": 28.99,
             "description": "string kodj",
             "category": "Sweatshirt ",
-            "thumbnail":"../../images/products/element_kasscreamgold_tops_tshirt_c1ssl8elp2-4811_art21-011369_3665601834811_502329-267.jpg",
+            "thumbnail":"element_kasscreamgold_tops_tshirt_c1ssl8elp2-4811_art21-011369_3665601834811_502329-267.jpg",
             "image": [
-                "../../images/products/element_kasscreamgold_tops_tshirt_c1ssl8elp2-4811_art21-011369_3665601834811_502329-267.jpg",
-                "../../images/products/element_kasscreamgold_tops_tshirt_c1ssl8elp2-4811_art21-011369_3665601834811_502329-268.jpg"
+                "element_kasscreamgold_tops_tshirt_c1ssl8elp2-4811_art21-011369_3665601834811_502329-267.jpg",
+                "element_kasscreamgold_tops_tshirt_c1ssl8elp2-4811_art21-011369_3665601834811_502329-268.jpg"
             ],
             "rating": {
                 "rate": 2.4,
@@ -167,10 +167,10 @@
             "price": 20.99,
             "description": "string kodj",
             "category": "Sweatshirt ",
-            "thumbnail":"../../images/products/element_basiccrewssportheather_tops_tshirt_n1ssg1elp9-3518_art20-001000_3664564781033_400914-27_lg.jpg",
+            "thumbnail":"element_basiccrewssportheather_tops_tshirt_n1ssg1elp9-3518_art20-001000_3664564781033_400914-27_lg.jpg",
             "image": [
-                "../../images/products/element_basiccrewssportheather_tops_tshirt_n1ssg1elp9-3518_art20-001000_3664564781033_400914-27_lg.jpg",
-                "../../images/products/element_basiccrewssportheather_tops_tshirt_n1ssg1elp9-3518_art20-001000_3664564781033_400914-29_lg.jpg"
+                "element_basiccrewssportheather_tops_tshirt_n1ssg1elp9-3518_art20-001000_3664564781033_400914-27_lg.jpg",
+                "element_basiccrewssportheather_tops_tshirt_n1ssg1elp9-3518_art20-001000_3664564781033_400914-29_lg.jpg"
             ],
             "rating": {
                 "rate": 2.4,
@@ -198,10 +198,10 @@
             "price": 20.99,
             "description": "string kodj",
             "category": "Sweatshirt ",
-            "thumbnail":"../../images/products/element_basicpocketlabelsflintblack_tops_tshirt_n1ssg3elp9-3732_art20-000999_3664564533571_400919-31_lg.jpg",
+            "thumbnail":"element_basicpocketlabelsflintblack_tops_tshirt_n1ssg3elp9-3732_art20-000999_3664564533571_400919-31_lg.jpg",
             "image": [
-                "../../images/products/element_basicpocketlabelsflintblack_tops_tshirt_n1ssg3elp9-3732_art20-000999_3664564533571_400919-31_lg.jpg",
-                "../../images/products/element_basicpocketlabelsflintblack_tops_tshirt_n1ssg3elp9-3732_art20-000999_3664564533571_400919-33_lg.jpg"
+                "element_basicpocketlabelsflintblack_tops_tshirt_n1ssg3elp9-3732_art20-000999_3664564533571_400919-31_lg.jpg",
+                "element_basicpocketlabelsflintblack_tops_tshirt_n1ssg3elp9-3732_art20-000999_3664564533571_400919-33_lg.jpg"
             ],
             "rating": {
                 "rate": 2.4,
@@ -220,16 +220,16 @@
             "price": 41.99,
             "description": "string kodj",
             "category": "Shorts",
-            "thumbnail":"../../images/products/elyws00103_element_w_crh0_frt1.jpg",
+            "thumbnail":"elyws00103_element_w_crh0_frt1.jpg",
             "image": [
-                "../../images/products/elyws00103_element_w_crh0_frt1.jpg",
-                "../../images/products/elyws00103_element_w_crh0_bck1.jpg",
-                "../../images/products/elyws00103_element_w_crh0_frt2.jpg",
-                "../../images/products/elyws00103_element_w_crh0_frt9.jpg",
-                "../../images/products/elyws00103_element_w_crh0_frt3.jpg",
-                "../../images/products/elyws00103_element_w_crh0_bck2.jpg",
-                "../../images/products/elyws00103_crh0.primary.jpg",
-                "../../images/products/elyws00103_element_f_crh0_bck1.jpg"
+                "elyws00103_element_w_crh0_frt1.jpg",
+                "elyws00103_element_w_crh0_bck1.jpg",
+                "elyws00103_element_w_crh0_frt2.jpg",
+                "elyws00103_element_w_crh0_frt9.jpg",
+                "elyws00103_element_w_crh0_frt3.jpg",
+                "elyws00103_element_w_crh0_bck2.jpg",
+                "elyws00103_crh0.primary.jpg",
+                "elyws00103_element_f_crh0_bck1.jpg"
             ],
             "rating": {
                 "rate": 2.4,
@@ -248,10 +248,10 @@
             "price": 37.99,
             "description": "string kodj",
             "category": "Shorts",
-            "thumbnail":"../../images/products/element_blazinchesttiedyedeepwater_tops_tshirt_z1hod3elf1-8724_art21-004158_3665601626072_471584-431-2.jpg",
+            "thumbnail":"element_blazinchesttiedyedeepwater_tops_tshirt_z1hod3elf1-8724_art21-004158_3665601626072_471584-431-2.jpg",
             "image": [
-                "../../images/products/element_blazinchesttiedyedeepwater_tops_tshirt_z1hod3elf1-8724_art21-004158_3665601626072_471584-431-2.jpg",
-                "../../images/products/element_blazinchesttiedyedeepwater_tops_tshirt_z1hod3elf1-8724_art21-004158_3665601626072_471584-435-2.jpg"
+                "element_blazinchesttiedyedeepwater_tops_tshirt_z1hod3elf1-8724_art21-004158_3665601626072_471584-431-2.jpg",
+                "element_blazinchesttiedyedeepwater_tops_tshirt_z1hod3elf1-8724_art21-004158_3665601626072_471584-435-2.jpg"
             ],
             "rating": {
                 "rate": 2.4,
@@ -270,10 +270,10 @@
             "price": 44.99,
             "description": "string kodj",
             "category": "T-Shirt",
-            "thumbnail":"../../images/products/415183307882-68.jpg",
+            "thumbnail":"415183307882-68.jpg",
             "image": [
-                "../../images/products/415183307882-68.jpg",
-                "../../images/products/415183307882-70.jpg"
+                "415183307882-68.jpg",
+                "415183307882-70.jpg"
             ],
             "rating": {
                 "rate": 2.4,
@@ -293,11 +293,11 @@
             "price": 44.99,
             "description": "string kodj",
             "category": "Sweat Pants",
-            "thumbnail":"../../images/products/carharttwip_chaseblackgold_tops_sweater_i028284-00fxx_art21-005772_4064958113713_478606-131.jpg",
+            "thumbnail":"carharttwip_chaseblackgold_tops_sweater_i028284-00fxx_art21-005772_4064958113713_478606-131.jpg",
             "image": [
-                "../../images/products/carharttwip_chaseblackgold_tops_sweater_i028284-00fxx_art21-005772_4064958113713_478606-131.jpg",
-                "../../images/products/carharttwip_chaseblackgold_tops_sweater_i028284-00fxx_art21-005772_4064958113713_478606-134.jpg",
-                "../../images/products/carharttwip_chaseblackgold_tops_sweater_i028284-00fxx_art21-005772_4064958113713_478606-135.jpg"
+                "carharttwip_chaseblackgold_tops_sweater_i028284-00fxx_art21-005772_4064958113713_478606-131.jpg",
+                "carharttwip_chaseblackgold_tops_sweater_i028284-00fxx_art21-005772_4064958113713_478606-134.jpg",
+                "carharttwip_chaseblackgold_tops_sweater_i028284-00fxx_art21-005772_4064958113713_478606-135.jpg"
             ],
             "rating": {
                 "rate": 2.4,
@@ -326,12 +326,12 @@
             "price": 40.99,
             "description": "string kodj",
             "category": "Shoes",
-            "thumbnail":"../../images/products/vans_oldskooltaperedecotheoryhawaiiansurfnatural_shoes_skateshoes_vn0a54f4asv1_art21-012197_196012297443_506750-41.jpg",
+            "thumbnail":"vans_oldskooltaperedecotheoryhawaiiansurfnatural_shoes_skateshoes_vn0a54f4asv1_art21-012197_196012297443_506750-41.jpg",
             "image": [
-                "../../images/products/vans_oldskooltaperedecotheoryhawaiiansurfnatural_shoes_skateshoes_vn0a54f4asv1_art21-012197_196012297443_506750-41.jpg",
-                "../../images/products/vans_oldskooltaperedecotheoryhawaiiansurfnatural_shoes_skateshoes_vn0a54f4asv1_art21-012197_196012297443_506750-45.jpg",
-                "../../images/products/vans_oldskooltaperedecotheoryhawaiiansurfnatural_shoes_skateshoes_vn0a54f4asv1_art21-012197_196012297443_506750-43.jpg",
-                "../../images/products/vans_oldskooltaperedecotheoryhawaiiansurfnatural_shoes_skateshoes_vn0a54f4asv1_art21-012197_196012297894_506754-95.jpg"
+                "vans_oldskooltaperedecotheoryhawaiiansurfnatural_shoes_skateshoes_vn0a54f4asv1_art21-012197_196012297443_506750-41.jpg",
+                "vans_oldskooltaperedecotheoryhawaiiansurfnatural_shoes_skateshoes_vn0a54f4asv1_art21-012197_196012297443_506750-45.jpg",
+                "vans_oldskooltaperedecotheoryhawaiiansurfnatural_shoes_skateshoes_vn0a54f4asv1_art21-012197_196012297443_506750-43.jpg",
+                "vans_oldskooltaperedecotheoryhawaiiansurfnatural_shoes_skateshoes_vn0a54f4asv1_art21-012197_196012297894_506754-95.jpg"
             ],
             "rating": {
                 "rate": 2.4,
@@ -360,11 +360,11 @@
             "price": 40.99,
             "description": "string kodj",
             "category": "Beanie",
-            "thumbnail":"../../images/products/obey_micro_beanie_lg.jpg",
+            "thumbnail":"obey_micro_beanie_lg.jpg",
             "image": [
-                "../../images/products/obey_micro_beanie_lg.jpg",
-                "../../images/products/obey_micro_beanie_back_lg.jpg",
-                "../../images/products/obey_micro_beanie_lifestyle_lg.jpg"
+                "obey_micro_beanie_lg.jpg",
+                "obey_micro_beanie_back_lg.jpg",
+                "obey_micro_beanie_lifestyle_lg.jpg"
             ],
             "rating": {
                 "rate": 2.4,
@@ -393,13 +393,13 @@
             "price": 40.99,
             "description": "string kodj",
             "category": "Jacket",
-            "thumbnail":"../../images/products/dickies_duckcanvasdeckblack_tops_u_bergangsj_dk0a4xfyc401_art22-005302_196249228852_529173-179.jpg",
+            "thumbnail":"dickies_duckcanvasdeckblack_tops_u_bergangsj_dk0a4xfyc401_art22-005302_196249228852_529173-179.jpg",
             "image": [
-                "../../images/products/dickies_duckcanvasdeckblack_tops_u_bergangsj_dk0a4xfyc401_art22-005302_196249228852_529173-179.jpg",
-                "../../images/products/dickies_duckcanvasdeckblack_tops_u_bergangsj_dk0a4xfyc401_art22-005302_196249228852_529173-173.jpg",
-                "../../images/products/dickies_duckcanvasdeckblack_tops_u_bergangsj_dk0a4xfyc401_art22-005302_196249228852_529173-182.jpg",
-                "../../images/products/dickies_duckcanvasdeckblack_tops_u_bergangsj_dk0a4xfyc401_art22-005302_196249228852_529173-176.jpg",
-                "../../images/products/dickies_duckcanvasdeckblack_tops_u_bergangsj_dk0a4xfyc401_art22-005302_196249228852_529173-175.jpg"
+                "dickies_duckcanvasdeckblack_tops_u_bergangsj_dk0a4xfyc401_art22-005302_196249228852_529173-179.jpg",
+                "dickies_duckcanvasdeckblack_tops_u_bergangsj_dk0a4xfyc401_art22-005302_196249228852_529173-173.jpg",
+                "dickies_duckcanvasdeckblack_tops_u_bergangsj_dk0a4xfyc401_art22-005302_196249228852_529173-182.jpg",
+                "dickies_duckcanvasdeckblack_tops_u_bergangsj_dk0a4xfyc401_art22-005302_196249228852_529173-176.jpg",
+                "dickies_duckcanvasdeckblack_tops_u_bergangsj_dk0a4xfyc401_art22-005302_196249228852_529173-175.jpg"
             ],
             "rating": {
                 "rate": 2.4,
@@ -427,13 +427,13 @@
             "price": 40.99,
             "description": "string kodj",
             "category": "Backpack",
-            "thumbnail":"../../images/products/vans_basecampdirt_accessorie_backpack_vn0a7rxodz91_art22-004655_196244871121_526520-210.jpg",
+            "thumbnail":"vans_basecampdirt_accessorie_backpack_vn0a7rxodz91_art22-004655_196244871121_526520-210.jpg",
             "image": [
-                "../../images/products/vans_basecampdirt_accessorie_backpack_vn0a7rxodz91_art22-004655_196244871121_526520-210.jpg",
-                "../../images/products/vans_basecampdirt_accessorie_backpack_vn0a7rxodz91_art22-004655_196244871121_526520-211.jpg",
-                "../../images/products/vans_basecampdirt_accessorie_backpack_vn0a7rxodz91_art22-004655_196244871121_526520-212.jpg",
-                "../../images/products/vans_basecampdirt_accessorie_backpack_vn0a7rxodz91_art22-004655_196244871121_526520-213.jpg",
-                "../../images/products/vansrucksack-168.jpg"
+                "vans_basecampdirt_accessorie_backpack_vn0a7rxodz91_art22-004655_196244871121_526520-210.jpg",
+                "vans_basecampdirt_accessorie_backpack_vn0a7rxodz91_art22-004655_196244871121_526520-211.jpg",
+                "vans_basecampdirt_accessorie_backpack_vn0a7rxodz91_art22-004655_196244871121_526520-212.jpg",
+                "vans_basecampdirt_accessorie_backpack_vn0a7rxodz91_art22-004655_196244871121_526520-213.jpg",
+                "vansrucksack-168.jpg"
             ],
             "rating": {
                 "rate": 2.4,
@@ -462,12 +462,12 @@
             "price": 31.99,
             "description": "string kodj",
             "category": "Beanie",
-            "thumbnail":"../../images/products/thenorthface_saltydogshadyblue_headwear_beanie_nf0a3fjwhdc1_art23-003972_196247068818_563212-25.jpg",
+            "thumbnail":"thenorthface_saltydogshadyblue_headwear_beanie_nf0a3fjwhdc1_art23-003972_196247068818_563212-25.jpg",
             "image": [
-                "../../images/products/thenorthface_saltydogshadyblue_headwear_beanie_nf0a3fjwhdc1_art23-003972_196247068818_563212-25.jpg",
-                "../../images/products/thenorthface_saltydogshadyblue_headwear_beanie_nf0a3fjwhdc1_art23-003972_196247068818_563212-26.jpg",
-                "../../images/products/cn63-168.jpg",
-                "../../images/products/cn63-169.jpg"
+                "thenorthface_saltydogshadyblue_headwear_beanie_nf0a3fjwhdc1_art23-003972_196247068818_563212-25.jpg",
+                "thenorthface_saltydogshadyblue_headwear_beanie_nf0a3fjwhdc1_art23-003972_196247068818_563212-26.jpg",
+                "cn63-168.jpg",
+                "cn63-169.jpg"
             ],
             "rating": {
                 "rate": 2.4,
@@ -496,13 +496,13 @@
             "price": 31.99,
             "description": "string kodj",
             "category": "Jacket",
-            "thumbnail":"../../images/products/atticus_smalltowndenimblack_tops_u_bergangsj_af20fj010blk1_art22-005847_4251416746181_531425-401.jpg",
+            "thumbnail":"atticus_smalltowndenimblack_tops_u_bergangsj_af20fj010blk1_art22-005847_4251416746181_531425-401.jpg",
             "image": [
-                "../../images/products/atticus_smalltowndenimblack_tops_u_bergangsj_af20fj010blk1_art22-005847_4251416746181_531425-401.jpg",
-                "../../images/products/atticus_smalltowndenimblack_tops_u_bergangsj_af20fj010blk1_art22-005847_4251416746181_531425-404.jpg",
-                "../../images/products/atticus_smalltowndenimblack_tops_u_bergangsj_af20fj010blk1_art22-005847_4251416746181_531425-409.jpg",
-                "../../images/products/atticus_smalltowndenimblack_tops_u_bergangsj_af20fj010blk1_art22-005847_4251416746181_531425-403.jpg",
-                "../../images/products/atticus_smalltowndenimblack_tops_u_bergangsj_af20fj010blk1_art22-005847_4251416746181_531425-406.jpg"
+                "atticus_smalltowndenimblack_tops_u_bergangsj_af20fj010blk1_art22-005847_4251416746181_531425-401.jpg",
+                "atticus_smalltowndenimblack_tops_u_bergangsj_af20fj010blk1_art22-005847_4251416746181_531425-404.jpg",
+                "atticus_smalltowndenimblack_tops_u_bergangsj_af20fj010blk1_art22-005847_4251416746181_531425-409.jpg",
+                "atticus_smalltowndenimblack_tops_u_bergangsj_af20fj010blk1_art22-005847_4251416746181_531425-403.jpg",
+                "atticus_smalltowndenimblack_tops_u_bergangsj_af20fj010blk1_art22-005847_4251416746181_531425-406.jpg"
             ],
             "rating": {
                 "rate": 2.4,
@@ -531,11 +531,11 @@
             "price": 44.99,
             "description": "string kodj",
             "category": "Jeans Jacket",
-            "thumbnail":"../../images/products/santacruz_uniteacidwashblackdenim_tops_u_bergangsj_sca-jkt-059_art21-011944_5059415123861_505264-148.jpg",
+            "thumbnail":"santacruz_uniteacidwashblackdenim_tops_u_bergangsj_sca-jkt-059_art21-011944_5059415123861_505264-148.jpg",
             "image": [
-                "../../images/products/santacruz_uniteacidwashblackdenim_tops_u_bergangsj_sca-jkt-059_art21-011944_5059415123861_505264-148.jpg",
-                "../../images/products/santacruz_uniteacidwashblackdenim_tops_u_bergangsj_sca-jkt-059_art21-011944_5059415123861_505264-149.jpg",
-                "../../images/products/santacruz_uniteacidwashblackdenim_tops_u_bergangsj_sca-jkt-059_art21-011944_5059415123861_505264-150.jpg"
+                "santacruz_uniteacidwashblackdenim_tops_u_bergangsj_sca-jkt-059_art21-011944_5059415123861_505264-148.jpg",
+                "santacruz_uniteacidwashblackdenim_tops_u_bergangsj_sca-jkt-059_art21-011944_5059415123861_505264-149.jpg",
+                "santacruz_uniteacidwashblackdenim_tops_u_bergangsj_sca-jkt-059_art21-011944_5059415123861_505264-150.jpg"
             ],
             "rating": {
                 "rate": 2.4,
@@ -564,10 +564,10 @@
             "price": 80.99,
             "description": "string kodj",
             "category": "Hoodie",
-            "thumbnail":"../../images/products/adyft03400_dcshoes_kvj0_frt1.jpg",
+            "thumbnail":"adyft03400_dcshoes_kvj0_frt1.jpg",
             "image": [
-                "../../images/products/adyft03400_dcshoes_kvj0_frt1.jpg",
-                "../../images/products/adyft03400_dcshoes_kvj0_bck1.jpg"
+                "adyft03400_dcshoes_kvj0_frt1.jpg",
+                "adyft03400_dcshoes_kvj0_bck1.jpg"
             ],
             "rating": {
                 "rate": 2.4,
@@ -596,11 +596,11 @@
             "price": 35.99,
             "description": "string kodj",
             "category": "T-Shirt",
-            "thumbnail":"../../images/products/adyzt05330_dcshoes_kvj0_frt1.jpg",
+            "thumbnail":"adyzt05330_dcshoes_kvj0_frt1.jpg",
             "image": [
-                "../../images/products/adyzt05330_dcshoes_kvj0_frt1.jpg",
-                "../../images/products/adyzt05330_dcshoes_kvj0_bck1.jpg",
-                "../../images/products/post_41_-_shoeco_hss_on-body.jpg"
+                "adyzt05330_dcshoes_kvj0_frt1.jpg",
+                "adyzt05330_dcshoes_kvj0_bck1.jpg",
+                "post_41_-_shoeco_hss_on-body.jpg"
             ],
             "rating": {
                 "rate": 2.4,
@@ -629,11 +629,11 @@
             "price": 13.99,
             "description": "string kodj",
             "category": "Keychain",
-            "thumbnail":"../../images/products/adyaa03185_dcshoes_kvj0_frt1.webp",
+            "thumbnail":"adyaa03185_dcshoes_kvj0_frt1.webp",
             "image": [
-                "../../images/products/adyaa03185_dcshoes_kvj0_frt1.webp",
-                "../../images/products/adyaa03185_dcshoes_kvj0_dtl1.webp",
-                "../../images/products/post_54_-_lanyard_black_background.jpg"
+                "adyaa03185_dcshoes_kvj0_frt1.webp",
+                "adyaa03185_dcshoes_kvj0_dtl1.webp",
+                "post_54_-_lanyard_black_background.jpg"
             ],
             "rating": {
                 "rate": 2.4,
@@ -662,10 +662,10 @@
             "price": 36,
             "description": "string kodj",
             "category": "wallet",
-            "thumbnail":"../../images/products/VN0A31J8DRB-HERO.webp",
+            "thumbnail":"VN0A31J8DRB-HERO.webp",
             "image": [
-                "../../images/products/VN0A31J8DRB-HERO.webp",
-                "../../images/products/VN0A31J8DRB-ALT1.webp"
+                "VN0A31J8DRB-HERO.webp",
+                "VN0A31J8DRB-ALT1.webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -694,10 +694,10 @@
             "price": 15,
             "description": "string kodj",
             "category": "keyband",
-            "thumbnail":"../../images/products/VN000UFHBYP-HERO.jpeg",
+            "thumbnail":"VN000UFHBYP-HERO.jpeg",
             "image": [
-                "../../images/products/VN000UFHBYP-HERO.jpeg",
-                "../../images/products/VN000UFHBYP-ALT1.webp"
+                "VN000UFHBYP-HERO.jpeg",
+                "VN000UFHBYP-ALT1.webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -726,10 +726,10 @@
             "price": 35,
             "description": "string kodj",
             "category": "purse",
-            "thumbnail":"../../images/products/VN000F0BBZ0-HERO.webp",
+            "thumbnail":"VN000F0BBZ0-HERO.webp",
             "image": [
-                "../../images/products/VN000F0BBZ0-HERO.webp",
-                "../../images/products/VN000F0BBZ0-ALT1.webp"
+                "VN000F0BBZ0-HERO.webp",
+                "VN000F0BBZ0-ALT1.webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -758,13 +758,13 @@
             "price": 75,
             "description": "string kodj",
             "category": "pant",
-            "thumbnail":"../../images/products/VN0008MZCBC-ALT9.webp",
+            "thumbnail":"VN0008MZCBC-ALT9.webp",
             "image": [
-                "../../images/products/VN0008MZCBC-ALT9.webp",
-                "../../images/products/VN0008MZCBC-ALT1.jpeg",
-                "../../images/products/VN0008MZCBC-HERO.jpeg",
-                "../../images/products/VN0008MZCBC-ALT2.jpeg",
-                "../../images/products/VN0008MZCBC-ALT3.webp"
+                "VN0008MZCBC-ALT9.webp",
+                "VN0008MZCBC-ALT1.jpeg",
+                "VN0008MZCBC-HERO.jpeg",
+                "VN0008MZCBC-ALT2.jpeg",
+                "VN0008MZCBC-ALT3.webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -793,13 +793,13 @@
             "price": 59.95,
             "description": "string kodj",
             "category": "shirt",
-            "thumbnail":"../../images/products/gb02004000_charco_02_1200x1800_1a0562ad-53fa-4119-bbdf-caa571db983f_1445x.jpg",
+            "thumbnail":"gb02004000_charco_02_1200x1800_1a0562ad-53fa-4119-bbdf-caa571db983f_1445x.jpg",
             "image": [
-                "../../images/products/gb02004000_charco_02_1200x1800_1a0562ad-53fa-4119-bbdf-caa571db983f_1445x.jpg",
-                "../../images/products/gb02004000_charco_07_1200x1800_1254e114-51b1-44bb-8342-2a1d080a50c7_1445x.webp",
-                "../../images/products/gb02004000_charco_05_1200x1800_a79993d1-f63c-454a-883f-ecd71abc3481_1445x.jpg",
-                "../../images/products/gb02004000_charco_01_1200x1800_4011b693-4a4b-45da-94d3-572f04da2ce7_1445x.webp",
-                "../../images/products/KF_GB02004000_3ef42d82-b9f8-42c3-8a54-8fdb5ec4de84.webp"
+                "gb02004000_charco_02_1200x1800_1a0562ad-53fa-4119-bbdf-caa571db983f_1445x.jpg",
+                "gb02004000_charco_07_1200x1800_1254e114-51b1-44bb-8342-2a1d080a50c7_1445x.webp",
+                "gb02004000_charco_05_1200x1800_a79993d1-f63c-454a-883f-ecd71abc3481_1445x.jpg",
+                "gb02004000_charco_01_1200x1800_4011b693-4a4b-45da-94d3-572f04da2ce7_1445x.webp",
+                "KF_GB02004000_3ef42d82-b9f8-42c3-8a54-8fdb5ec4de84.webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -828,14 +828,14 @@
             "price": 59.95,
             "description": "string kodj",
             "category": "shirt",
-            "thumbnail":"../../images/products/gb02004000_blk_3_1445x.webp",
+            "thumbnail":"gb02004000_blk_3_1445x.webp",
             "image": [
-                "../../images/products/gb02004000_blk_3_1445x.webp",
-                "../../images/products/gb02004000_blk_2_1500x.webp",
-                "../../images/products/gb02004000_blk_4_1500x.webp",
-                "../../images/products/gb02004000_blk_5_1500x.webp",
-                "../../images/products/gb02004000_blk_1800x1200_07_1500x.webp",
-                "../../images/products/gb02004000_blk_1500x.webp"
+                "gb02004000_blk_3_1445x.webp",
+                "gb02004000_blk_2_1500x.webp",
+                "gb02004000_blk_4_1500x.webp",
+                "gb02004000_blk_5_1500x.webp",
+                "gb02004000_blk_1800x1200_07_1500x.webp",
+                "gb02004000_blk_1500x.webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -864,11 +864,11 @@
             "price": 59.95,
             "description": "string kodj",
             "category": "Shoes",
-            "thumbnail":"../../images/products/gbmotleyii_29091_1_1500x.jpg",
+            "thumbnail":"gbmotleyii_29091_1_1500x.jpg",
             "image": [
-                "../../images/products/gbmotleyii_29091_1_1500x.jpg",
-                "../../images/products/GBMOTLEYII_29091_2_v8i156_bd5261cc-6708-4b57-9a28-def6c5549bde_1500x.webp",
-                "../../images/products/gbmotleyii_29091_1500x.webp"
+                "gbmotleyii_29091_1_1500x.jpg",
+                "GBMOTLEYII_29091_2_v8i156_bd5261cc-6708-4b57-9a28-def6c5549bde_1500x.webp",
+                "gbmotleyii_29091_1500x.webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -897,13 +897,13 @@
             "price": 89.95,
             "description": "string kodj",
             "category": "Shoes",
-            "thumbnail":"../../images/products/gbmotleyii_10023_1_1500x.webp",
+            "thumbnail":"gbmotleyii_10023_1_1500x.webp",
             "image": [
-                "../../images/products/gbmotleyii_10023_1_1500x.webp",
-                "../../images/products/gbmotleyii_10023_2_1500x.webp",
-                "../../images/products/gbmotleyii_10023_3_1500x.webp",
-                "../../images/products/MOTLEYIIBLACK2_1.webp",
-                "../../images/products/MOTLEYIIBLACK_1.jpg"
+                "gbmotleyii_10023_1_1500x.webp",
+                "gbmotleyii_10023_2_1500x.webp",
+                "gbmotleyii_10023_3_1500x.webp",
+                "MOTLEYIIBLACK2_1.webp",
+                "MOTLEYIIBLACK_1.jpg"
             ],
             "rating": {
                 "rate": 2.4,
@@ -932,11 +932,11 @@
             "price": 89.95,
             "description": "string kodj",
             "category": "Shoes",
-            "thumbnail":"../../images/products/gbmotleyii_19628__1_1500x.jpg",
+            "thumbnail":"gbmotleyii_19628__1_1500x.jpg",
             "image": [
-                "../../images/products/gbmotleyii_19628__1_1500x.jpg",
-                "../../images/products/gbmotleyii_19628_2_1500x.jpg",
-                "../../images/products/gbmotleyii_19628_3_1500x.webp"
+                "gbmotleyii_19628__1_1500x.jpg",
+                "gbmotleyii_19628_2_1500x.jpg",
+                "gbmotleyii_19628_3_1500x.webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -965,9 +965,9 @@
             "price": 84.95,
             "description": "string kodj",
             "category": "sweatshirt",
-            "thumbnail":"../../images/products/4130003722-976-F-001_1200x.web",
+            "thumbnail":"4130003722-976-F-001_1200x.webp",
             "image": [
-                "../../images/products/4130003722-976-F-001_1200x.webp"
+                "4130003722-976-F-001_1200x.webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -996,9 +996,9 @@
             "price": 84.95,
             "description": "string kodj",
             "category": "sweatshirt",
-            "thumbnail":"../../images/products/4130003773-318-F-001_1200x.web",
+            "thumbnail":"4130003773-318-F-001_1200x.webp",
             "image": [
-                "../../images/products/4130003773-318-F-001_1200x.webp"
+                "4130003773-318-F-001_1200x.webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -1027,10 +1027,10 @@
             "price": 84.95,
             "description": "string kodj",
             "category": "sweatshirt",
-            "thumbnail":"../../images/products/4130004048-043-F-001_1200x.webp",
+            "thumbnail":"4130004048-043-F-001_1200x.webp",
             "image": [
-                "../../images/products/4130004048-043-F-001_1200x.webp",
-                "../../images/products/4130004048-043-B-001_2048x.webp"
+                "4130004048-043-F-001_1200x.webp",
+                "4130004048-043-B-001_2048x.webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -1059,10 +1059,10 @@
             "price": 89.95,
             "description": "string kodj",
             "category": "sweatshirt",
-            "thumbnail":"../../images/products/4137000956-001-F-001_1200x.webp",
+            "thumbnail":"4137000956-001-F-001_1200x.webp",
             "image": [
-                "../../images/products/4137000956-001-F-001_1200x.webp",
-                "../../images/products/4137000956-001-B-001_1200x.webp"
+                "4137000956-001-F-001_1200x.webp",
+                "4137000956-001-B-001_1200x.webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -1091,10 +1091,10 @@
             "price": 99.95,
             "description": "string kodj",
             "category": "sweatshirt",
-            "thumbnail":"../../images/products/4130004037-252-F-001_1200x.webp",
+            "thumbnail":"4130004037-252-F-001_1200x.webp",
             "image": [
-                "../../images/products/4130004037-252-F-001_1200x.webp",
-                "../../images/products/4137000956-001-B-001_1200x.webp"
+                "4130004037-252-F-001_1200x.webp",
+                "4137000956-001-B-001_1200x.webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -1123,10 +1123,10 @@
             "price": 26.95,
             "description": "string kodj",
             "category": "sweatshirt",
-            "thumbnail":"../../images/products/4137000909-F-001_1200x.webp",
+            "thumbnail":"4137000909-F-001_1200x.webp",
             "image": [
-                "../../images/products/4137000909-F-001_1200x.webp",
-                "../../images/products/4137000909-B-001_1200x.webp"
+                "4137000909-F-001_1200x.webp",
+                "4137000909-B-001_1200x.webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -1155,10 +1155,10 @@
             "price": 53.95,
             "description": "string kodj",
             "category": "sweatshirt",
-            "thumbnail":"../../images/products/4137000912-F-001_1200x.webp",
+            "thumbnail":"4137000912-F-001_1200x.webp",
             "image": [
-                "../../images/products/4137000912-F-001_1200x.webp",
-                "../../images/products/4137000912-B-001_1200x.webp"
+                "4137000912-F-001_1200x.webp",
+                "4137000912-B-001_1200x.webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -1187,14 +1187,14 @@
             "price": 105,
             "description": "string kodj",
             "category": "shoes",
-            "thumbnail":"../../images/products/VN0009QFZBF-HERO.webp",
+            "thumbnail":"VN0009QFZBF-HERO.webp",
             "image": [
-                "../../images/products/VN0009QFZBF-HERO.webp",
-                "../../images/products/VN0009QFZBF-ALT1.webp",
-                "../../images/products/VN0009QFZBF-ALT2.webp",
-                "../../images/products/VN0009QFZBF-ALT3.webp",
-                "../../images/products/VN0009QFZBF-ALT4.webp",
-                "../../images/products/VN0009QFZBF-ALT6.webp"
+                "VN0009QFZBF-HERO.webp",
+                "VN0009QFZBF-ALT1.webp",
+                "VN0009QFZBF-ALT2.webp",
+                "VN0009QFZBF-ALT3.webp",
+                "VN0009QFZBF-ALT4.webp",
+                "VN0009QFZBF-ALT6.webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -1231,13 +1231,13 @@
                     ]
                 }
             ],
-            "thumbnail":"../../images/products/VN0A5FCBBG7-HERO.webp",
+            "thumbnail":"VN0A5FCBBG7-HERO.webp",
             "image": [
-                "../../images/products/VN0A5FCBBG7-HERO.webp",
-                "../../images/products/VN0A5FCBBG7-ALT1.webp",
-                "../../images/products/VN0A5FCBBG7-ALT2.webp",
-                "../../images/products/VN0A5FCBBG7-ALT3.webp",
-                "../../images/products/VN0A5FCBBG7-ALT4.webp"
+                "VN0A5FCBBG7-HERO.webp",
+                "VN0A5FCBBG7-ALT1.webp",
+                "VN0A5FCBBG7-ALT2.webp",
+                "VN0A5FCBBG7-ALT3.webp",
+                "VN0A5FCBBG7-ALT4.webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -1275,13 +1275,13 @@
                     ]
                 }
             ],
-            "thumbnail":"../../images/products/VN0A5FCBB9M-HERO.webp",
+            "thumbnail":"VN0A5FCBB9M-HERO.webp",
             "image": [
-                "../../images/products/VN0A5FCBB9M-HERO.webp",
-                "../../images/products/VN0A5FCBB9M-ALT1.webp",
-                "../../images/products/VN0A5FCBB9M-ALT2.webp",
-                "../../images/products/VN0A5FCBB9M-ALT3.webp",
-                "../../images/products/VN0A5FCBB9M-ALT4.webp"
+                "VN0A5FCBB9M-HERO.webp",
+                "VN0A5FCBB9M-ALT1.webp",
+                "VN0A5FCBB9M-ALT2.webp",
+                "VN0A5FCBB9M-ALT3.webp",
+                "VN0A5FCBB9M-ALT4.webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -1318,16 +1318,16 @@
                     ]
                 }
             ],
-            "thumbnail":"../../images/products/VN0A5JICOVM-HERO.webp",
+            "thumbnail":"VN0A5JICOVM-HERO.webp",
             "image": [
-                "../../images/products/VN0A5JICOVM-HERO.webp",
-                "../../images/products/VN0A5JICOVM-ALT1.webp",
-                "../../images/products/VN0A5JICOVM-ALT2.webp",
-                "../../images/products/VN0A5JICOVM-ALT7.webp",
-                "../../images/products/VN0A5JICOVM-ALT3.webp",
-                "../../images/products/VN0A5JICOVM-ALT4.webp",
-                "../../images/products/VN0A5JICOVM-ALT6.webp",
-                "../../images/products/VN0A5JICOVM-ALT8.webp"
+                "VN0A5JICOVM-HERO.webp",
+                "VN0A5JICOVM-ALT1.webp",
+                "VN0A5JICOVM-ALT2.webp",
+                "VN0A5JICOVM-ALT7.webp",
+                "VN0A5JICOVM-ALT3.webp",
+                "VN0A5JICOVM-ALT4.webp",
+                "VN0A5JICOVM-ALT6.webp",
+                "VN0A5JICOVM-ALT8.webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -1364,14 +1364,14 @@
                     ]
                 }
             ],
-            "thumbnail":"../../images/products/VN0005UB1KP-HERO.webp",
+            "thumbnail":"VN0005UB1KP-HERO.webp",
             "image": [
-                "../../images/products/VN0005UB1KP-HERO.webp",
-                "../../images/products/VN0005UB1KP-ALT1.webp",
-                "../../images/products/VN0005UB1KP-ALT2.webp",
-                "../../images/products/VN0005UB1KP-ALT3.webp",
-                "../../images/products/VN0005UB1KP-ALT4.jpg",
-                "../../images/products/VN0005UB1KP-ALT6.jpg"
+                "VN0005UB1KP-HERO.webp",
+                "VN0005UB1KP-ALT1.webp",
+                "VN0005UB1KP-ALT2.webp",
+                "VN0005UB1KP-ALT3.webp",
+                "VN0005UB1KP-ALT4.jpg",
+                "VN0005UB1KP-ALT6.jpg"
             ],
             "rating": {
                 "rate": 2.4,
@@ -1409,13 +1409,13 @@
                     ]
                 }
             ],
-            "thumbnail":"../../images/products/adidas-tyshawn-low-core-black-footwear-white-gum4-01.webp",
+            "thumbnail":"adidas-tyshawn-low-core-black-footwear-white-gum4-01.webp",
             "image": [
-                "../../images/products/adidas-tyshawn-low-core-black-footwear-white-gum4-01.webp",
-                "../../images/products/adidas-tyshawn-low-core-black-footwear-white-gum4-02.webp",
-                "../../images/products/adidas-tyshawn-low-core-black-footwear-white-gum4-03.webp",
-                "../../images/products/adidas-tyshawn-low-core-black-footwear-white-gum4-04.webp",
-                "../../images/products/adidas-tyshawn-low-core-black-footwear-white-gum4-05.webp"
+                "adidas-tyshawn-low-core-black-footwear-white-gum4-01.webp",
+                "adidas-tyshawn-low-core-black-footwear-white-gum4-02.webp",
+                "adidas-tyshawn-low-core-black-footwear-white-gum4-03.webp",
+                "adidas-tyshawn-low-core-black-footwear-white-gum4-04.webp",
+                "adidas-tyshawn-low-core-black-footwear-white-gum4-05.webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -1456,15 +1456,15 @@
                     ]
                 }
             ],
-            "thumbnail":"../../images/products/3057035 (1).webp",
+            "thumbnail":"3057035 (1).webp",
             "image": [
-                "../../images/products/3057035 (1).webp",
-                "../../images/products/3057035 (2).webp",
-                "../../images/products/3057035 (3).webp",
-                "../../images/products/3057035 (4).webp",
-                "../../images/products/3057035 (5).webp",
-                "../../images/products/3057035 (6).webp",
-                "../../images/products/3057035 (7).webp"
+                "3057035 (1).webp",
+                "3057035 (2).webp",
+                "3057035 (3).webp",
+                "3057035 (4).webp",
+                "3057035 (5).webp",
+                "3057035 (6).webp",
+                "3057035 (7).webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -1502,15 +1502,15 @@
                     ]
                 }
             ],
-            "thumbnail":"../../images/products/277062120 (1).webp",
+            "thumbnail":"277062120 (1).webp",
             "image": [
-                "../../images/products/277062120 (1).webp",
-                "../../images/products/277062120 (2).webp",
-                "../../images/products/277062120 (3).webp",
-                "../../images/products/277062120 (4).webp",
-                "../../images/products/277062120 (5).webp",
-                "../../images/products/277062120 (6).webp",
-                "../../images/products/277062120 (7).webp"
+                "277062120 (1).webp",
+                "277062120 (2).webp",
+                "277062120 (3).webp",
+                "277062120 (4).webp",
+                "277062120 (5).webp",
+                "277062120 (6).webp",
+                "277062120 (7).webp"
             ],
             "rating": {
                 "rate": 2.4,
@@ -1548,14 +1548,14 @@
                     ]
                 }
             ],
-            "thumbnail":"../../images/products/277063050 (1).webp",
+            "thumbnail":"277063050 (1).webp",
             "image": [
-                "../../images/products/277063050 (1).webp",
-                "../../images/products/277063050 (2).webp",
-                "../../images/products/277063050 (3).webp",
-                "../../images/products/277063050 (4).webp",
-                "../../images/products/277063050 (5).webp",
-                "../../images/products/277063050 (6).webp"
+                "277063050 (1).webp",
+                "277063050 (2).webp",
+                "277063050 (3).webp",
+                "277063050 (4).webp",
+                "277063050 (5).webp",
+                "277063050 (6).webp"
             ],
             "rating": {
                 "rate": 2.4,
