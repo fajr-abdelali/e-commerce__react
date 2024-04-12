@@ -1,5 +1,6 @@
 import { HeartIcon } from "@heroicons/react/24/outline";
 import ProductItem from "./productItem";
+import { formaCurrency } from "../../utils/formatCurrency";
 
 type productListProps = {
     products?: Product[]
@@ -25,7 +26,7 @@ export default function ProductList({ products }: productListProps) {
                             <span className="text-gray-400 mr-3 uppercase text-xs">Brand</span>
                         </div>
                         <div className="flex items-center">
-                            <p className="text-lg font-semibold text-black cursor-auto my-3">$149</p>
+                            <p className="text-lg font-semibold text-black cursor-auto my-3">{formaCurrency(149)} </p>
                             {/* <del>
                                 <p className="text-sm text-gray-600 cursor-auto ml-2">$199</p>
                             </del> */}

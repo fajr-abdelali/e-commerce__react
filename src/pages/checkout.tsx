@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { formaCurrency } from "../utils/formatCurrency";
 
 
 export default function Checkout() {
@@ -92,8 +93,8 @@ export default function Checkout() {
                                         <img className="m-2 h-24 w-28 rounded-md border object-cover object-center" src={product.thumbnail} alt="" />
                                         <div className="flex w-full flex-col px-4 py-4">
                                             <span className="font-semibold"> {product.title} </span>
-                                            <span className="float-right text-gray-400">42EU - 8.5US</span>
-                                            <p className="mt-auto text-lg font-bold">${product.price}</p>
+                                            <span className="float-right text-gray-400">{`${formaCurrency(42)} - ${formaCurrency(8.5)}`}</span>
+                                            <p className="mt-auto text-lg font-bold">{formaCurrency(product.price)}</p>
                                         </div>
                                     </div>
                                 ))
@@ -188,16 +189,16 @@ export default function Checkout() {
                         <div className="mt-6 border-t border-b py-2">
                             <div className="flex items-center justify-between">
                                 <p className="text-sm font-medium text-gray-900">Subtotal</p>
-                                <p className="font-semibold text-gray-900">${subtotal} </p>
+                                <p className="font-semibold text-gray-900">{formaCurrency(subtotal)} </p>
                             </div>
                             <div className="flex items-center justify-between">
                                 <p className="text-sm font-medium text-gray-900">Shipping</p>
-                                <p className="font-semibold text-gray-900">${delivery} </p>
+                                <p className="font-semibold text-gray-900">{formaCurrency(delivery)} </p>
                             </div>
                         </div>
                         <div className="mt-6 flex items-center justify-between">
                             <p className="text-sm font-medium text-gray-900">Total</p>
-                            <p className="text-2xl font-semibold text-gray-900">${total} </p>
+                            <p className="text-2xl font-semibold text-gray-900">{formaCurrency(total)} </p>
                         </div>
                     </div>
                     <button className="mt-4 mb-8 w-full rounded-md bg-gray-900 px-6 py-3 font-medium text-white">Place Order</button>

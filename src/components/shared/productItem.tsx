@@ -1,4 +1,5 @@
 import { HeartIcon } from "@heroicons/react/24/outline";
+import { formaCurrency } from "../../utils/formatCurrency";
 
 export default function ProductItem({ product }: { product: Product }) {
 
@@ -18,7 +19,7 @@ export default function ProductItem({ product }: { product: Product }) {
                         <span className="text-gray-400 mr-3 uppercase text-xs"> {product.brand} </span>
                     </div>
                     <div className="flex items-center">
-                        <p className="text-lg font-semibold text-black cursor-auto my-3"> {product.price} </p>
+                        <p className="text-lg font-semibold text-black cursor-auto my-3"> {formaCurrency(product.price)} </p>
                         {/* <del>
                         <p className="text-sm text-gray-600 cursor-auto ml-2">$199</p>
                     </del> */}
