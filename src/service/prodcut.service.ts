@@ -1,10 +1,10 @@
 
-const url = "http://localhost:3000/products";
+const url = import.meta.env.VITE_API_URL
 const products: Product[] = [];
 
 export const fetchData = async (): Promise<Product[]> => {
     try {
-        const response = await fetch(url);
+        const response = await fetch(`${url}/products`);
         if (!response.ok) {
             throw new Error(`HTTP error ! status ${response.status}`)
         }

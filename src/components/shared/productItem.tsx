@@ -3,6 +3,8 @@ import { formaCurrency } from "../../utils/formatCurrency";
 
 export default function ProductItem({ product }: { product: Product }) {
 
+    const IMG_URL:string=import.meta.env.VITE_API_URL
+
     const handleClick = (id: number) => {
         alert(id)
     }
@@ -11,11 +13,9 @@ export default function ProductItem({ product }: { product: Product }) {
 
         <div className="w-72 bg-white shadow-sm rounded-sm duration-500 " >
             <div onClick={() => handleClick(product.id)} style={{ cursor: 'pointer' }}>
-                {product.images ? (<img src={product.thumbnail} alt="Product" className="h-80 w-72 object-cover rounded-t-sm" />) :
+                {product.thumbnail ? (<img src={`${IMG_URL}/${product.thumbnail}`} alt="Product" className="h-80 w-72 object-cover rounded-t-sm" />) :
                     null
                 }
-                <img src={product.thumbnail} alt="Product" className="h-80 w-72 object-cover rounded-t-sm" />
-                <img src={product.thumbnail} alt="Product" className="h-80 w-72 object-cover rounded-t-sm" />
                 <div className=" w-72">
                     <div className="flex items-center justify-between">
                         <p className="text-left text-lg font-bold text-black truncate block capitalize">{product.title}</p>
