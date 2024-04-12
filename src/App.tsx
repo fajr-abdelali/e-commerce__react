@@ -4,6 +4,7 @@ import Favorite from './pages/favorite'
 import Checkout from './pages/checkout'
 import NotFound from './pages/notFound'
 import NavBar from './components/navbar'
+import Products from './pages/products'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className="content px-8">
         <Routes>
           <Route path='/' element={<Home />} ></Route>
+          <Route path='/men' element={<Products />} ></Route>
           <Route path='/favorite' element={<Favorite />} ></Route>
           <Route path='/checkout' element={<Checkout />} ></Route>
           <Route path='*' element={<NotFound />} ></Route>
