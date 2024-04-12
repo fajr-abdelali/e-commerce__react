@@ -38,7 +38,10 @@ export default function ProductList({ products }: productListProps) {
                 </a>
             </div>
             {/* <!--   🛑 Product card 1 - Ends Here  --> */}
-            <ProductItem product={{id:1 ,title:"oooo1",brand:"vans",price:90,thumbnail:"oooo"}} />
+            {products?.map(product=>{
+                return <ProductItem product={product} key={product.id} />
+            } )}
+            
 
             
         </section>

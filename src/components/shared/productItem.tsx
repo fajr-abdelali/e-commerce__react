@@ -10,9 +10,12 @@ export default function ProductItem({ product }: { product: Product }) {
     return (
 
         <div className="w-72 bg-white shadow-sm rounded-sm duration-500 " >
-            <a href="javascript:void(0)">
-                <img src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                    alt="Product" className="h-80 w-72 object-cover rounded-t-sm" />
+            <div onClick={() => handleClick(product.id)} style={{ cursor: 'pointer' }}>
+                {product.images ? (<img src={product.thumbnail} alt="Product" className="h-80 w-72 object-cover rounded-t-sm" />) :
+                    null
+                }
+                <img src={product.thumbnail} alt="Product" className="h-80 w-72 object-cover rounded-t-sm" />
+                <img src={product.thumbnail} alt="Product" className="h-80 w-72 object-cover rounded-t-sm" />
                 <div className=" w-72">
                     <div className="flex items-center justify-between">
                         <p className="text-left text-lg font-bold text-black truncate block capitalize">{product.title}</p>
@@ -28,7 +31,7 @@ export default function ProductItem({ product }: { product: Product }) {
                         </div>
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
     )
 }
