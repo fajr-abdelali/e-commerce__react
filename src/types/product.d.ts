@@ -4,10 +4,20 @@ type Product = {
     description?: string;
     price: number;
     discountPercentage?: number;
-    rating?: number;
+    rating?: Rating;
     stock?: number;
     brand?: string;
+    colors?: Colors[];
     category?: string;
-    thumbnail: string;
+    thumbnail?: string;
     images?: string[];
+}
+
+type Colors = {
+    name: string,
+    hexa: string
+}
+type Rating = {
+    rate: number,
+    count: number
 }
