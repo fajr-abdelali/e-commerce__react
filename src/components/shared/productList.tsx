@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { fetchData } from "../../service/prodcut.service";
-import { HeartIcon } from "@heroicons/react/24/outline";
 import ProductItem from "./productItem";
-import { formaCurrency } from "../../utils/formatCurrency";
 import ProductItemSkelton from "./productItem.skelton";
 import Alert from "./alert";
+import { useDispatch, useSelector } from "react-redux";
+import { retrieveProducts } from "../../state/features/product/productSlice";
 
 type productListProps = {
     products?: Product[]
@@ -13,18 +13,12 @@ type productListProps = {
 export default function ProductList() {
 
 
-
-    const [products, setProducts] = useState<Product[]>([])
-    const [isLoading, setLoading] = useState(true)
+    const dispatch = useDispatch();
+    const { products, loading, error } = useSelector(state => state.product)
 
     useEffect(() => {
-        setTimeout(() => {
-            fetchData().then(res => res).then(data => {
-                setProducts(data)
-                setLoading(false)
-            }).catch(err => console.log(err))
-        }, 4000)
-    })
+        dispatch(retrieveProducts())
+    }, [dispatch])
 
 
 
@@ -37,9 +31,9 @@ export default function ProductList() {
 
             {/* <!-- Product card - Starts Here --> */}
 
-            {isLoading ? ([1, 2, 3, 4, 5, 6, 7, 8].map(n => <ProductItemSkelton key={n} />))
-                : products.length > 0 ? (products.map(product => <ProductItem product={product}></ProductItem>)) :
-                    (<Alert />)
+            {loading ? (Array.from({ length: 8 }).map((_,index) => <ProductItemSkelton key={index} />))
+                : error ? (<Alert />)
+                : (products.map((product: Product) => <ProductItem product={product} key={product.id}></ProductItem>))
             }
 
             {/* <!-- Product card - Ends Here --> */}
