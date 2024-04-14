@@ -13,7 +13,7 @@ export default function ProductItem({ product }: { product: Product }) {
 
         <div className="w-72 bg-white shadow-sm rounded-sm duration-500 " >
             <div onClick={() => handleClick(product.id)} style={{ cursor: 'pointer' }}>
-                {product.thumbnail ? (<img src={`${IMG_URL}/${product.thumbnail}`} alt="Product" className="h-80 w-72 object-cover rounded-t-sm" />) :
+                {product.thumbnail ? (<img src={`${IMG_URL}/${product.thumbnail}`} alt="Product" className="h-80 w-72 object-cover rounded-t-sm" loading="lazy" />) :
                     null
                 }
                 <div className=" w-72">
