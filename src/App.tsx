@@ -5,6 +5,7 @@ import Checkout from './pages/checkout'
 import NotFound from './pages/notFound'
 import NavBar from './components/navbar'
 import Products from './pages/products'
+import ProductDetails from './pages/productDetails'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/' element={<Home />} ></Route>
           <Route path='/men' element={<Products />} ></Route>
           <Route path='/women' element={<Products />} ></Route>
+          <Route path='/category/slug' element={<ProductDetails />} ></Route>
           <Route path='/favorite' element={<Favorite />} ></Route>
           <Route path='/checkout' element={<Checkout />} ></Route>
           <Route path='*' element={<NotFound />} ></Route>
