@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react"
 import { formaCurrency } from "../utils/formatCurrency";
+import { useDispatch, useSelector } from "react-redux";
+import { AppDispatch, RootState } from "../state/store";
 
 
 export default function Checkout() {
@@ -8,6 +10,10 @@ export default function Checkout() {
     const [subtotal, setSubtotal] = useState(0)
     const [delivery, setDelivery] = useState(8)
     const [total, setTotal] = useState(0);
+    const IMG_URL:string=import.meta.env.VITE_API_URL
+
+    const cart = useSelector((state: RootState) => state.cart);
+    const dispatch: AppDispatch = useDispatch();
 
     const products: Product[] = [
         {
@@ -87,14 +93,14 @@ export default function Checkout() {
                             </div>
                         </div> */}
                         {
-                            products.length > 0 ? (
-                                products.map(product => (
-                                    <div key={product.id} className="flex flex-col rounded-lg bg-white sm:flex-row">
-                                        <img className="m-2 h-24 w-28 rounded-md border object-cover object-center" src={product.thumbnail} alt="" />
+                            cart.items.length > 0 ? (
+                                cart.items.map(item => (
+                                    <div key={item.id} className="flex flex-col rounded-lg bg-white sm:flex-row">
+                                        <img className="m-2 h-24 w-28 rounded-md border object-cover object-center" src={`${IMG_URL}/${item.product.thumbnail}`} alt="" />
                                         <div className="flex w-full flex-col px-4 py-4">
-                                            <span className="font-semibold"> {product.title} </span>
+                                            <span className="font-semibold"> {item.product.title} </span>
                                             <span className="float-right text-gray-400">{`${formaCurrency(42)} - ${formaCurrency(8.5)}`}</span>
-                                            <p className="mt-auto text-lg font-bold">{formaCurrency(product.price)}</p>
+                                            <p className="mt-auto text-lg font-bold">{formaCurrency(item.product.price)}</p>
                                         </div>
                                     </div>
                                 ))

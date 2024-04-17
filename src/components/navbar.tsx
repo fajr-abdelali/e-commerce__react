@@ -1,8 +1,13 @@
 import { Link } from "react-router-dom";
 import { HeartIcon, ShoppingBagIcon, UserIcon } from "@heroicons/react/24/outline";
 import DropDown from "./shared/dropDown";
+import { useDispatch, useSelector } from "react-redux";
+import { AppDispatch, RootState } from "../state/store";
 
 export default function NavBar() {
+
+    const cart = useSelector((state: RootState) => state.cart);
+  const dispatch: AppDispatch = useDispatch();
 
 
     const dropDownOptions = [
@@ -65,8 +70,8 @@ export default function NavBar() {
                             </Link>
                         </li>
                         <li className="ml-2 lg:ml-4 relative inline-block">
-                            <Link className="" to="/">
-                                <div className="absolute -top-2 -right-2 z-10 bg-pink-600 text-xs font-bold px-0.5 py-0 rounded-sm">12</div>
+                            <Link className="" to="/checkout">
+                                <div className="absolute -top-2 -right-2 z-10 bg-pink-600 text-xs font-bold px-0.5 py-0 rounded-sm">{cart.items.length}</div>
                                 <ShoppingBagIcon className="stroke-1 h-5 w-5 " />
                             </Link>
                         </li>

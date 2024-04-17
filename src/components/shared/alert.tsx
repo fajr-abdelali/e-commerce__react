@@ -1,4 +1,4 @@
-export default function Alert() {
+export default function Alert({child}) {
     return (
         <div role="alert" className="relative flex w-full px-4 py-4 text-base text-white bg-gray-900 rounded-lg font-regular">
             <div className="shrink-0">
@@ -9,7 +9,7 @@ export default function Alert() {
                     </path>
                 </svg>
             </div>
-            <div className="ml-3 mr-12">A simple alert with icon for showing message</div>
+            <div className="ml-3 mr-12">{child}</div>
         </div>
     )
 }
