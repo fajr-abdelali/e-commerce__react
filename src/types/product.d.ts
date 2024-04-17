@@ -11,13 +11,20 @@ type Product = {
     category?: string;
     thumbnail?: string;
     images?: string[];
+    options?: Option[]
 }
 
 type Colors = {
     name: string,
     hexa: string
 }
+
 type Rating = {
     rate: number,
     count: number
+}
+
+type Option = {
+    name: string,
+    options: string[]
 }
