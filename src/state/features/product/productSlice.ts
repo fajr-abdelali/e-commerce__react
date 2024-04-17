@@ -1,22 +1,29 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit"
 import { fetchData } from "../../../service/prodcut.service";
+import { RootState } from "../../store";
 
 type ProductState = {
-    products: Product[],
+    data: Product[],
     loading: boolean,
-    error?: any
+    error?: any,
+    nextPage: number
 }
 
 const initialState: ProductState = {
-    products: [],
+    data: [],
     loading: false,
     error: '',
+    nextPage: 1
 }
 
+const pageSize: number = 15;
+
 export const retrieveProducts = createAsyncThunk(
-    "tutorials/retrieve",
-    async () => {
-        return await fetchData();
+    "retrieveProducts",
+    async (_, { getState }) => {
+        const state = getState() as RootState;
+        const { nextPage } = state.product;
+        return await fetchData(nextPage, pageSize);
     }
 );
 
@@ -28,11 +35,16 @@ export const ProductSlice = createSlice({
         builder.addCase(retrieveProducts.pending, state => { state.loading = true })
             .addCase(retrieveProducts.fulfilled, (state, action) => {
                 state.loading = false;
-                state.products = action.payload
+                if (Array.isArray(action.payload)) {
+                    state.data = action.payload
+                    state.nextPage++;
+                } else {
+                    state.error = "Invalid data format returned from the server.";
+                }
             })
             .addCase(retrieveProducts.rejected, (state, action) => {
                 state.loading = false;
-                state.error= action.error.message
+                state.error = action.error.message
 
             })
     }
@@ -40,10 +52,4 @@ export const ProductSlice = createSlice({
 })
 
 
-
-
-
-
-
-// export const reducer = ProductSlice.reducer
-export default ProductSlice.reducer
+export default ProductSlice.reducer;
