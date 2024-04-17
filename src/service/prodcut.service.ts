@@ -1,14 +1,16 @@
 
-const url = import.meta.env.VITE_API_URL
+const url = import.meta.env.VITE_API_URL;
 const products: Product[] = [];
 
-export const fetchData = async (): Promise<Product[]> => {
+export const fetchData = async (nextPage:number,pageSize:number): Promise<Product[]> => {
     try {
-        const response = await fetch(`${url}/products`);
+        const response = await fetch(`${url}/products?_page=${nextPage}&_per_page=${pageSize}`);
         if (!response.ok) {
             throw new Error(`HTTP error ! status ${response.status}`)
         }
-        return await response.json()
+        const res = await response.json()
+        
+        return await res.data
     } catch (error) {
         const errorMessage = error instanceof Error ? error.message : "there was an error";
         console.log(errorMessage);
