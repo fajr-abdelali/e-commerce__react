@@ -6,7 +6,7 @@ type ProductListProps = {
     products: Product[];
     loading: boolean;
     error?: string;
-    onLoadMore: () => void;
+    onLoadMore?: () => void;
 }
 export default function ProductList({ products, loading, error, onLoadMore }: ProductListProps) {
 
