@@ -36,6 +36,17 @@ h1 {
   line-height: 1.1;
 }
 
+.menu__link {
+  @apply text-white pl-3 pr-4 py-2 md:p-0 hover:text-pink-600 hover:bg-transparent bg-transparent border-b md:border-0;
+
+  &--active {
+    @apply text-pink-600 rounded;
+  }
+  &__dropDown{
+    @apply block px-4 py-2 hover:text-pink-600 dark:hover:bg-gray-600;
+  }
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -44,13 +55,16 @@ button {
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
+  color: #f9f9f9;
   cursor: pointer;
   transition: border-color 0.25s;
+  outline: none;
+
+  &:hover {
+    border-color: #646cff;
+  }
 }
 
-button:hover {
-  border-color: #646cff;
-}
 
 button:focus,
 button:focus-visible {

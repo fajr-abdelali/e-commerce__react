@@ -32,7 +32,7 @@ export default function DropDown({ children, options = [] }: dropDownProps) {
 
             <div id="dropdownDefaultButton"
                 onClick={() => setIsOpen(!isOpen)} data-dropdown-toggle="dropdown"
-                className="text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm  text-center inline-flex items-end gap-x-1 pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0 cursor-pointer">
+                className="menu__link flex justify-between items-end gap-1 cursor-pointer hover:text-pink-600">
                 {children}
                 {isOpen ?
                     (<ChevronUpIcon className="stroke-1 h-4 w-4 text-blue-100" />) :
@@ -46,8 +46,8 @@ export default function DropDown({ children, options = [] }: dropDownProps) {
                 <ul className="py-2 text-sm text-left " aria-labelledby="dropdownDefaultButton">
                     {options.length > 0 ? options.map((option, index) => {
                         return (
-                            <li key={index} >
-                                <Link to={option.link} className="block px-4 py-2 dark:hover:bg-gray-600"> {option.name} </Link>
+                            <li key={index}>
+                                <Link to={option.link} className="menu__link__dropDown"> {option.name} </Link>
                             </li>
                         )
                     })
