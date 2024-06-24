@@ -34,7 +34,7 @@ export default function ProductItem({ product }: { product: Product }) {
                         <div className="ml-auto">
                             <HeartIcon
                                 className={`h-5 w-5 z-40
-                                ${isFavorite ? "fill-red-500 hover:fill-red-700 stroke-0" : "stroke-1"}
+                                ${isFavorite ? "fill-pink-600 hover:fill-pink-600 stroke-0" : "stroke-1"}
                                 `}
                                 onClick={handleClick}
                             />
