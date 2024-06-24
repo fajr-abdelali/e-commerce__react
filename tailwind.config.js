@@ -5,8 +5,20 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+      },
+      fontWeight: {
+        normal: 300,
+        medium: 400,
+        semibold: 500,
+        bold: 600,
+      },
+    },
   },
-  plugins: [],
+  plugins: [
+    'postcss-import': {}
+  ],
 }
 
