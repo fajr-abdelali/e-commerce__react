@@ -16,15 +16,12 @@ export default function ProductList({ products, loading, error, onLoadMore }: Pr
             <section className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-4/
          md:grid-cols-3 justify-items-center justify-center gap-y-5 gap-x-3 mt-10 mb-5">
                 {/* <!-- Product card - Starts Here --> */}
-
                 {loading ? (Array.from({ length: 8 }).map((_, index) => <ProductItemSkelton key={index} />))
                     : error ? (<Alert child={error} />)
-                        : (console.log(products),
-                            products.map((product: Product) => <ProductItem product={product} key={product.id}></ProductItem>))
+                        : (products.map((product: Product) => <ProductItem product={product} key={product.id}></ProductItem>))
                 }
 
                 {/* <!-- Product card - Ends Here --> */}
-
 
 
             </section>
