@@ -36,8 +36,11 @@ export const ProductSlice = createSlice({
             .addCase(retrieveProducts.fulfilled, (state, action) => {
                 state.loading = false;
                 if (Array.isArray(action.payload)) {
-                    state.data = action.payload
-                    state.nextPage++;
+                    const newProducts = action.payload.filter(product =>
+                        !state.data.some(existingProduct => existingProduct.id === product.id)
+                    )
+                    state.data = [...state.data, ...newProducts];
+                    newProducts.length > 0 && state.nextPage++;
                 } else {
                     state.error = "Invalid data format returned from the server.";
                 }

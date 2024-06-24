@@ -11,7 +11,7 @@ export default function Products() {
 
     useEffect(()=>{
         dispatch(retrieveProducts())
-    },[])
+    },[dispatch])
 
     const loadMore = () => {
         dispatch(retrieveProducts())
