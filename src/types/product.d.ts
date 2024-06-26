@@ -7,11 +7,10 @@ type Product = {
     rating?: Rating;
     stock?: number;
     brand?: string;
-    colors?: Colors[];
     category?: string;
     thumbnail?: string;
     images?: string[];
-    options?: Option[]
+    options?: Option
 }
 
 type Colors = {
@@ -25,6 +24,6 @@ type Rating = {
 }
 
 type Option = {
-    name: string,
-    options: string[]
+    size?: string[],
+    colors?: Colors[];
 }
