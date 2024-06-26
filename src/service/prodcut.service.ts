@@ -18,6 +18,21 @@ export const fetchData = async (nextPage:number,pageSize:number): Promise<Produc
     }
 }
 
+export const fetchProductById = async (productId: number): Promise<Product> => {
+    try {
+      const response = await fetch(`${url}/products/${productId}`);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const res = await response.json();
+      return res;
+    } catch (error) {
+      const errorMessage = error instanceof Error ? error.message : "There was an error";
+      console.log(errorMessage);
+      throw new Error(errorMessage);
+    }
+  };
+
 export const fetchFavorits = async (): Promise<Product[]> => {
     try {
         const response = await fetch(url);
