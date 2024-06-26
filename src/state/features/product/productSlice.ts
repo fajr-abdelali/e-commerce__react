@@ -1,9 +1,10 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit"
-import { fetchData } from "../../../service/prodcut.service";
+import { fetchData, fetchProductById } from "../../../service/prodcut.service";
 import { RootState } from "../../store";
 
 type ProductState = {
     data: Product[],
+    product?: Product;
     loading: boolean,
     error?: any,
     nextPage: number
@@ -24,6 +25,19 @@ export const retrieveProducts = createAsyncThunk(
         const state = getState() as RootState;
         const { nextPage } = state.product;
         return await fetchData(nextPage, pageSize);
+    }
+);
+
+export const retrieveProductById = createAsyncThunk(
+    "retrieveProductById",
+    async (productId: number, { getState }) => {
+        const state = getState() as RootState;
+        const existingProduct = state.product.data.find(p => p.id === productId);
+        if (existingProduct) {
+            return existingProduct;
+        } else {
+            return await fetchProductById(productId);
+        }
     }
 );
 
@@ -49,6 +63,15 @@ export const ProductSlice = createSlice({
                 state.loading = false;
                 state.error = action.error.message
 
+            })
+            .addCase(retrieveProductById.pending, state => { state.loading = true })
+            .addCase(retrieveProductById.fulfilled, (state, action) => {
+                state.loading = false;
+                state.product = action.payload;
+            })
+            .addCase(retrieveProductById.rejected, (state, action) => {
+                state.loading = false;
+                state.error = action.error.message;
             })
     }
 
