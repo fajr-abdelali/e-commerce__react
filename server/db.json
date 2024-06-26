@@ -2,7 +2,8 @@
   "products": [
     {
       "id": 15347407,
-      "title": "Nando Von Arb Sweatshirt - PONDEROSA PINE",
+      "title": "Nando Von Arb Sweatshirt",
+      "brand": "volcom",
       "price": 90,
       "description": "string kodj",
       "category": "Sweatshirt ",
@@ -16,19 +17,27 @@
         "rate": 2.4,
         "count": 120
       },
-      "colors": [
-        {
-          "name": "brown",
-          "hexa": "964B00"
-        }
-      ]
+      "options": {
+        "colors": [
+          {
+            "name": "PONDEROSA PINE",
+            "hexa": "964B00"
+          }
+        ],
+        "size": [
+          "s",
+          "m",
+          "l"
+        ]
+      }
     },
     {
       "id": 15344403,
-      "title": "Nevermine Sweatshirt - WINE",
+      "title": "Nevermine Sweatshirt",
+      "brand": "volcom",
       "price": 90,
       "description": "string kodj",
-      "category": "Sweatshirt ",
+      "category": "Sweatshirt",
       "thumbnail": "A4632309_WNE_F_a46eb9c2-ecfc-4f3c-973a-15b02f580129_1188x1584_crop_center.webp",
       "image": [
         "A4632309_WNE_F_a46eb9c2-ecfc-4f3c-973a-15b02f580129_1188x1584_crop_center.webp",
@@ -38,16 +47,24 @@
         "rate": 2.4,
         "count": 120
       },
-      "colors": [
-        {
-          "name": "brown",
-          "hexa": "964B00"
-        }
-      ]
+      "options": {
+        "colors": [
+          {
+            "name": "WINE",
+            "hexa": "964B00"
+          }
+        ],
+        "size": [
+          "s",
+          "m",
+          "l"
+        ]
+      }
     },
     {
       "id": 15247403,
-      "title": "Nevermine Sweatshirt - BLACK",
+      "title": "Nevermine Sweatshirt",
+      "brand": "volcom",
       "price": 90,
       "description": "string kodj",
       "category": "Sweatshirt ",
@@ -69,10 +86,11 @@
     },
     {
       "id": 15747453,
-      "title": "Lodge Bear Chestnut - Jacket",
+      "title": "Lodge Bear Chestnut",
+      "brand": "volcom",
       "price": 143.99,
       "description": "string kodj",
-      "category": "Sweatshirt ",
+      "category": "Jacket",
       "thumbnail": "element_lodgebearchestnut_tops_shirtjack_elyjk00181-crz0_art23-000907_3613379087236_553683-243.jpg",
       "image": [
         "element_lodgebearchestnut_tops_shirtjack_elyjk00181-crz0_art23-000907_3613379087236_553683-243.jpg",
@@ -95,10 +113,11 @@
     },
     {
       "id": 15717403,
-      "title": "Basic Pocket Label Eclipse Navy - T-Shirt",
+      "title": "Basic Pocket Label Eclipse Navy",
+      "brand": "element",
       "price": 26.99,
       "description": "string kodj",
-      "category": "Sweatshirt ",
+      "category": "shirt ",
       "thumbnail": "elykt00116_element_w_ecn_frt1.jpg",
       "image": [
         "elykt00116_element_w_ecn_frt1.jpg",
@@ -118,10 +137,11 @@
     },
     {
       "id": 65747403,
-      "title": "Seal Bp Eclipse Navy - T-Shirt",
+      "title": "Seal Bp Eclipse Navy",
+      "brand": "element",
       "price": 24.99,
       "description": "string kodj",
-      "category": "Sweatshirt ",
+      "category": "T-Shirt",
       "thumbnail": "element_sealbpeclipsenavy_tops_tshirt_z1ssi8elf1-3918_art21-011343_3665601591868_502202-47.jpg",
       "image": [
         "element_sealbpeclipsenavy_tops_tshirt_z1ssi8elf1-3918_art21-011343_3665601591868_502202-47.jpg",
@@ -141,10 +161,11 @@
     },
     {
       "id": 95847403,
-      "title": "Kass Cream Gold - T-Shirt",
+      "title": "Kass Cream Gold",
+      "brand": "element",
       "price": 28.99,
       "description": "string kodj",
-      "category": "Sweatshirt ",
+      "category": "T-Shirt",
       "thumbnail": "element_kasscreamgold_tops_tshirt_c1ssl8elp2-4811_art21-011369_3665601834811_502329-267.jpg",
       "image": [
         "element_kasscreamgold_tops_tshirt_c1ssl8elp2-4811_art21-011369_3665601834811_502329-267.jpg",
@@ -163,10 +184,11 @@
     },
     {
       "id": 20747403,
-      "title": "Basic Crew SS Port Heather - T-Shirt",
+      "title": "Basic Crew SS Port Heather",
+      "brand": "element",
       "price": 20.99,
       "description": "string kodj",
-      "category": "Sweatshirt ",
+      "category": "T-Shirt",
       "thumbnail": "element_basiccrewssportheather_tops_tshirt_n1ssg1elp9-3518_art20-001000_3664564781033_400914-27_lg.jpg",
       "image": [
         "element_basiccrewssportheather_tops_tshirt_n1ssg1elp9-3518_art20-001000_3664564781033_400914-27_lg.jpg",
@@ -178,7 +200,7 @@
       },
       "colors": [
         {
-          "name": "brown",
+          "name": "red",
           "hexa": "964B00"
         }
       ],
@@ -194,10 +216,11 @@
     },
     {
       "id": 15747403,
-      "title": "Basic Pocket Label S Flint Black - T-Shirt",
+      "title": "Basic Pocket Label S Flint Black",
+      "brand": "element",
       "price": 20.99,
       "description": "string kodj",
-      "category": "Sweatshirt ",
+      "category": "T-Shirt",
       "thumbnail": "element_basicpocketlabelsflintblack_tops_tshirt_n1ssg3elp9-3732_art20-000999_3664564533571_400919-31_lg.jpg",
       "image": [
         "element_basicpocketlabelsflintblack_tops_tshirt_n1ssg3elp9-3732_art20-000999_3664564533571_400919-31_lg.jpg",
@@ -217,6 +240,7 @@
     {
       "id": 25747403,
       "title": "Legion Cargo Army",
+      "brand": "element",
       "price": 41.99,
       "description": "string kodj",
       "category": "Shorts",
@@ -244,10 +268,11 @@
     },
     {
       "id": 25798403,
-      "title": "Blazin Chest Tie Dye Deepwater - T-Shirt",
+      "title": "Blazin Chest Tie Dye Deepwater",
+      "brand": "element",
       "price": 37.99,
       "description": "string kodj",
-      "category": "Shorts",
+      "category": "Hoodie",
       "thumbnail": "element_blazinchesttiedyedeepwater_tops_tshirt_z1hod3elf1-8724_art21-004158_3665601626072_471584-431-2.jpg",
       "image": [
         "element_blazinchesttiedyedeepwater_tops_tshirt_z1hod3elf1-8724_art21-004158_3665601626072_471584-431-2.jpg",
@@ -267,6 +292,7 @@
     {
       "id": 25943403,
       "title": "Comfycush Stripe S/S Knit Mountain Vw/Oatmealheather",
+      "brand": "vans",
       "price": 44.99,
       "description": "string kodj",
       "category": "T-Shirt",
