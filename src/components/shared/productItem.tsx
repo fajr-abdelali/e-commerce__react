@@ -3,6 +3,7 @@ import { formaCurrency } from "../../utils/formatCurrency";
 import { useDispatch, useSelector } from "react-redux";
 import { AppDispatch, RootState } from "../../state/store";
 import { addToFav, removeFromFav } from "../../state/features/favorites/favorites.slice";
+import { Link } from "react-router-dom";
 
 export default function ProductItem({ product }: { product: Product }) {
 
@@ -21,19 +22,26 @@ export default function ProductItem({ product }: { product: Product }) {
 
         <div className="w-72 bg-white shadow-sm rounded-sm duration-500 " >
             <div>
-                {product.thumbnail ? (<img src={`${IMG_URL}/${product.thumbnail}`} alt="Product" className="h-80 w-72 object-cover rounded-t-sm" loading="lazy" />) :
+
+                {product.thumbnail ? (
+                    <Link to={`/product/${product.id}`} >
+                        <img src={`${IMG_URL}/${product.thumbnail}`} alt="Product" className="h-80 w-72 object-cover rounded-t-sm" loading="lazy" />
+                    </Link>
+                ) :
                     null
                 }
-                <div className=" w-72">
-                    <div className="flex items-center justify-between">
-                        <p className="text-left text-lg font-bold text-black truncate block capitalize">{product.title}</p>
-                        <span className="text-gray-400 mr-3 uppercase text-xs"> {product.brand} </span>
-                    </div>
-                    <div className="flex items-center">
-                        <p className="text-lg font-semibold text-black cursor-auto my-3"> {formaCurrency(product.price)} </p>
+                <div className="w-72">
+                    <Link to={`/product/${product.id}`} className="flex items-center justify-between mt-3" >
+                        <p className="text-left text-base font-bold truncate block capitalize">{product.title}</p>
+                        {product.brand && (<span className="text-gray-400 uppercase text-xs whitespace-nowrap"> {product.brand} </span>)}
+                    </Link>
+                    <div className="flex items-center mt-1">
+                        <Link to={`/product/${product.id}`} >
+                            <p className="text-sm text-pink-600 font-normal cursor-auto"> {formaCurrency(product.price)} </p>
+                        </Link>
                         <div className="ml-auto">
                             <HeartIcon
-                                className={`h-5 w-5 z-40
+                                className={`h-5 w-5 z-40 cursor-pointer
                                 ${isFavorite ? "fill-pink-600 hover:fill-pink-600 stroke-0" : "stroke-1"}
                                 `}
                                 onClick={handleClick}
@@ -41,6 +49,7 @@ export default function ProductItem({ product }: { product: Product }) {
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     )
