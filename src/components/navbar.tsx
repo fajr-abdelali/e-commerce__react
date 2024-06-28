@@ -3,11 +3,13 @@ import { HeartIcon, ShoppingBagIcon, UserIcon } from "@heroicons/react/24/outlin
 import DropDown from "./shared/dropDown";
 import { useDispatch, useSelector } from "react-redux";
 import { AppDispatch, RootState } from "../state/store";
+import { useAuth } from "../context/AuthContext";
 
 export default function NavBar() {
 
     const cart = useSelector((state: RootState) => state.cart);
-  const dispatch: AppDispatch = useDispatch();
+    const dispatch: AppDispatch = useDispatch();
+    const { isAuthenticated } = useAuth();
 
 
     const dropDownOptions = [
@@ -59,11 +61,15 @@ export default function NavBar() {
                 <div className="hidden md:flex justify-between items-center w-full md:ml-auto md:w-auto md:order-2" id="mobile-menu-3">
                     <ul className="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-xs md:font-medium">
 
-                        <li className="ml-2 lg:ml-4 relative inline-block">
-                            <Link className="" to="/">
-                                <UserIcon className="stroke-1 h-5 w-5 " />
-                            </Link>
-                        </li>
+                        {isAuthenticated && (
+                            <li className="ml-2 lg:ml-4 relative inline-block">
+                                <Link className="" to="/">
+                                    <UserIcon className="stroke-1 h-5 w-5 " />
+                                </Link>
+                            </li>
+                        )}
+                        {isAuthenticated}
+                        
                         <li className="ml-2 lg:ml-4 relative inline-block">
                             <Link className="" to="/favorite">
                                 <HeartIcon className="stroke-1 h-5 w-5 " />
