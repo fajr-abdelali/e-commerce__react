@@ -1,7 +1,7 @@
-import { Navigate, RouteProps } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext"
 
-interface ProtectedRouteProps extends RouteProps {
+interface ProtectedRouteProps {
     element: React.ReactNode;
 }
 
