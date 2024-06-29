@@ -7,12 +7,13 @@ import { RootState } from "../state/store";
 import { useEffect } from "react";
 import { retrieveProductById, retrieveProducts } from "../state/features/product/productSlice";
 import CarouselProducts from "../components/shared/carousel/carouselProducts";
+import ImgContainer from "../components/shared/imgContainer";
 
 export default function ProductDetails() {
 
     const { productId } = useParams<{ productId: string }>();
     const dispatch = useDispatch();
-    const { product, loading, error,data } = useSelector((state: RootState) => state.product);
+    const { product, loading, error, data } = useSelector((state: RootState) => state.product);
     const IMG_URL: string = import.meta.env.VITE_API_URL
 
     useEffect(() => {
@@ -32,22 +33,17 @@ export default function ProductDetails() {
             <section className="text-gray-700 body-font overflow-hidden bg-white">
                 <div className="container px-5 py-6 mx-auto">
                     <div className="lg:w-4/5 mx-auto flex flex-wrap">
-                        {
-                            product.thumbnail ?
-                                (
-                                    <img alt="ecommerce"
-                                        className="lg:w-1/2 w-full object-cover object-top rounded border border-gray-200 max-h-96"
-                                        src={`${IMG_URL}/${product.thumbnail}`}
-                                        loading="lazy"
-                                    />
-                                ) : (
-                                    <img alt="ecommerce"
-                                        className="lg:w-1/2 w-full object-cover object-top rounded border border-gray-200 max-h-96"
-                                        src="https://www.whitmorerarebooks.com/pictures/medium/2465.jpg"
-                                        loading="lazy"
-                                    />
-                                )
-                        }
+                        <div className="lg:w-1/2 border border-gray-200 rounded max-h-96" loading="lazy">
+                            {
+                                product.thumbnail ?
+                                    (
+
+                                        <ImgContainer height="100%" src={`${IMG_URL}/${product.thumbnail}`} ></ImgContainer>
+                                    ) : (
+                                        <ImgContainer height="100%" src="https://www.whitmorerarebooks.com/pictures/medium/2465.jpg" ></ImgContainer>
+                                    )
+                            }
+                        </div>
                         <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
                             <h2 className="text-sm title-font text-gray-500 tracking-widest"> {product.brand} </h2>
                             <h1 className="text-gray-900 text-3xl title-font font-medium mb-1"> {product.title} </h1>
@@ -127,7 +123,7 @@ export default function ProductDetails() {
                     </div>
                 </div>
             </section>
-            <CarouselProducts products={data.slice(9,data.length)}></CarouselProducts>
+            <CarouselProducts products={data.slice(9, data.length)}></CarouselProducts>
         </>
     )
 }
