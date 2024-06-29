@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { AppDispatch, RootState } from "../../state/store";
 import { addToFav, removeFromFav } from "../../state/features/favorites/favorites.slice";
 import { Link } from "react-router-dom";
+import ImgContainer from "./imgContainer";
 
 export default function ProductItem({ product }: { product: Product }) {
 
@@ -25,7 +26,7 @@ export default function ProductItem({ product }: { product: Product }) {
 
                 {product.thumbnail ? (
                     <Link to={`/product/${product.id}`} >
-                        <img src={`${IMG_URL}/${product.thumbnail}`} alt="Product" className="h-80 w-72 object-cover rounded-t-sm" loading="lazy" />
+                        <ImgContainer imgObject="object-cover" height="100%" src={`${IMG_URL}/${product.thumbnail}`} ></ImgContainer>
                     </Link>
                 ) :
                     null
