@@ -2,20 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-// :root {
-//   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-//   line-height: 1.5;
-//   font-weight: 400;
-
-//   color-scheme: light dark;
-//   color: rgba(255, 255, 255, 0.87);
-//   font-synthesis: none;
-//   text-rendering: optimizeLegibility;
-//   -webkit-font-smoothing: antialiased;
-//   -moz-osx-font-smoothing: grayscale;
-// }
-
-*{
+* {
   word-spacing: -1px;
 }
 
@@ -24,7 +11,6 @@
   max-width: 1280px;
   min-height: 100vh;
   margin: 0 auto;
-  text-align: center;
 }
 
 body {
@@ -35,9 +21,13 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+@layer base {
+  h1 { @apply text-h1 capitalize ; }
+  h2 { @apply text-h2 capitalize ; }
+  h3 { @apply text-h3 capitalize ; }
+  h4 { @apply text-h4 capitalize ; }
+  h5 { @apply text-h5 capitalize ; }
+  h6 { @apply text-h6 capitalize ; }
 }
 
 .menu__link {
@@ -46,7 +36,8 @@ h1 {
   &--active {
     @apply text-pink-600 rounded;
   }
-  &__dropDown{
+
+  &__dropDown {
     @apply block px-4 py-2 hover:text-pink-600 dark:hover:bg-gray-600;
   }
 }
@@ -73,6 +64,22 @@ button {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.slick-slider {
+
+  .slick-prev,
+  .slick-next {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    z-index: 1;
+    &::before{
+      line-height: 1.1;
+      @apply text-pink-600;
+      font-size: 25px;
+    }
+  }
 }
 
 @media (prefers-color-scheme: light) {
