@@ -123,7 +123,7 @@ export default function ProductDetails() {
                     </div>
                 </div>
             </section>
-            <CarouselProducts products={data.slice(9, data.length)}></CarouselProducts>
+            <CarouselProducts title="suggested" products={data.slice(9, data.length)}></CarouselProducts>
         </>
     )
 }
