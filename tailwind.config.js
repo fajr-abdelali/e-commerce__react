@@ -16,12 +16,12 @@ export default {
         bold: 600,
       },
       fontSize: {
-        'h1': ['2.5rem', { lineHeight: '1.2',fontWeight:'200' }],
-        'h2': ['4rem', { lineHeight: '1.25',fontWeight:'200' }],
-        'h3': ['1.75rem', { lineHeight: '1.3' }],
-        'h4': ['1.5rem', { lineHeight: '1.35' }],
-        'h5': ['1.25rem', { lineHeight: '1.4' }],
-        'h6': ['1rem', { lineHeight: '1.45' }],
+        'h1': ['2rem', { lineHeight: '1.2', letterSpacing: '-0.01em' }],
+        'h2': ['1.5rem', { lineHeight: '1.3', letterSpacing: '-0.01em' }],
+        'h3': ['1.25rem', { lineHeight: '1.4', letterSpacing: '-0.01em' }],
+        'h4': ['1.125rem', { lineHeight: '1.5', letterSpacing: '-0.01em' }],
+        'h5': ['1rem', { lineHeight: '1.5', letterSpacing: '-0.01em' }],
+        'h6': ['0.875rem', { lineHeight: '1.5', letterSpacing: '-0.01em' }],
         'xs': '0.75rem', // 12px
         'sm': '0.875rem', // 14px
         'base': '1rem', // 16px
@@ -39,7 +39,7 @@ export default {
     },
   },
   plugins: [
-    'postcss-import': {},
+    
   ],
 }
 
