@@ -11,6 +11,11 @@ export default function NavBar() {
     const dispatch: AppDispatch = useDispatch();
     const { isAuthenticated } = useAuth();
 
+    const links = [
+        { title: "Home", path: "/" },
+        { title: "men", path: "/men" },
+        { title: "women", path: "/women" },
+    ]
 
     const dropDownOptions = [
         { name: "name 1", link: "link1" },
@@ -43,15 +48,13 @@ export default function NavBar() {
                 </div> */}
                 <div className="hidden md:flex justify-between items-center w-full md:w-auto md:order-1" id="mobile-menu-3">
                     <ul className="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
-                        <li>
-                            <Link to="/" className="menu__link--active" aria-current="page">Home</Link>
-                        </li>
-                        <li>
-                            <Link to="/men" className=" menu__link">men</Link>
-                        </li>
-                        <li>
-                            <Link to="/women" className=" menu__link">women</Link>
-                        </li>
+
+                        {links.map(link => (
+                            <li>
+                                <Link to={link.path} className="menu__link" aria-current="page"> {link.title} </Link>
+                            </li>
+                        ))}
+
                         <li>
                             <DropDown options={dropDownOptions} >options</DropDown>
                         </li>
@@ -69,7 +72,7 @@ export default function NavBar() {
                             </li>
                         )}
                         {isAuthenticated}
-                        
+
                         <li className="ml-2 lg:ml-4 relative inline-block">
                             <Link className="" to="/favorite">
                                 <HeartIcon className="stroke-1 h-5 w-5 " />
